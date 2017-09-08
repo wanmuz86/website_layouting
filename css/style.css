@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+}
+#header {
+	background-color: rgb(51,66,75);
+	overflow: auto;
+	padding: 30px;
+	border-bottom: solid 3px rgb(247,40,0) ;
+}
+
+#header h1 {
+	color: rgb(247,40,0);
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.subtitle {
+	color: white;
+}
+
+#header nav ul {
+	padding-top: 15px;
+}
+#header nav ul li a {
+	color: white ;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+}
+#header nav ul li {
+	display: inline-block;
+	margin: 0px 15px;
+}
+.three-quarter{
+	float: left;
+	width: 68%;
+}
+.quarter{
+	float: left;
+	width: 28%;
+}
+
+#banner {
+	height: 400px;
+	background-image: url('../images/showcase.jpg');
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+}
+#banner h1 {
+	font-size: 55px;
+	font-weight: bold;
+}
+#banner p {
+font-size: 24px;
+}
+
+#subscribe {
+	background-color: rgb(51,66,75);
+	overflow: auto;
+}
+.half-box {
+	float: left;
+	width: 48%;
+}
+
+#subscribe p {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 30px 0px;
+}
+
+#subscribe input {
+	width: 300px;
+	height: 30px;	
+}
+#subscribe button {
+	width: 100px;
+	height: 30px;
+	background-color: rgb(247,40,0);	
+	color: white;
+}
+#works {
+	background-color: rgb(244,244,244);
+	overflow: auto;
+	text-align: center;
+	padding: 20px 0px;
+}
+#works img {
+	height: 100px;
+}
+
+#works h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+#works p {
+	font-size: 16px;
+}
+.box {
+	float: left;
+	width: 32%;
+}
+footer {
+	background-color: rgb(247,40,0);
+color: white;
+text-align: center;
+padding: 20px;
+}
+
